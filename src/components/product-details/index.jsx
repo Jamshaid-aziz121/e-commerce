@@ -15,7 +15,7 @@ export default function ProductDetails() {
             <div class="container my-5">
                 <div class="row g-4">
                     <div class="col-md-6">
-                        <img src={product.images[0]} class="img-fluid rounded shadow" alt="Product Image" />
+                        <img src={product.images[0]} class="img-fluid rounded shadow" alt={product.title} />
                     </div>
                     <div class="col-md-6">
                         <h1 class="mt-6">{product.title}</h1>
