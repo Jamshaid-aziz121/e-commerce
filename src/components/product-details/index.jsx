@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.css'
 import { useLocation, useParams } from 'react-router'
-import Header from '../Header';
 
 export default function ProductDetails() {
     const location = useLocation();
